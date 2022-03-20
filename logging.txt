@@ -1,0 +1,285 @@
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "location": {
+        "lat": -38.383494,
+        "lng": 33.427362
+    },
+    "accuracy": 50,
+    "name": "White house",
+    "phone_number": "(+91) 123 456 6789",
+    "address": "White street",
+    "types": [
+        "pink",
+        "blue"
+    ],
+    "website": "http://google.com",
+    "language": "Indian"
+}
+HTTP/1.1 200 OK
+Date: Fri, 18 Mar 2022 19:47:06 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "6af49d7754fca3504aff9a218b801ae1",
+    "scope": "APP",
+    "reference": "89e8c6ab9529c66abbbc7498d8b85cd889e8c6ab9529c66abbbc7498d8b85cd8",
+    "id": "89e8c6ab9529c66abbbc7498d8b85cd8"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=6af49d7754fca3504aff9a218b801ae1
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=6af49d7754fca3504aff9a218b801ae1
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Fri, 18 Mar 2022 19:47:08 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 232
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "-38.383494",
+        "longitude": "33.427362"
+    },
+    "accuracy": "50",
+    "name": "White house",
+    "phone_number": "(+91) 123 456 6789",
+    "address": "White street",
+    "types": "pink,blue",
+    "website": "http://google.com",
+    "language": "Indian"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "location": {
+        "lat": -38.383494,
+        "lng": 33.427362
+    },
+    "accuracy": 50,
+    "name": "Pink house",
+    "phone_number": "(+91) 123 456 6789",
+    "address": "Pink street",
+    "types": [
+        "pink",
+        "blue"
+    ],
+    "website": "http://google.com",
+    "language": "Indian"
+}
+HTTP/1.1 200 OK
+Date: Fri, 18 Mar 2022 19:47:12 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "38141d5c3805ccff00cbe830e35e5873",
+    "scope": "APP",
+    "reference": "9b692cb1cf0ee069dc44bab2b3e198229b692cb1cf0ee069dc44bab2b3e19822",
+    "id": "9b692cb1cf0ee069dc44bab2b3e19822"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=38141d5c3805ccff00cbe830e35e5873
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=38141d5c3805ccff00cbe830e35e5873
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Fri, 18 Mar 2022 19:47:14 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 230
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "-38.383494",
+        "longitude": "33.427362"
+    },
+    "accuracy": "50",
+    "name": "Pink house",
+    "phone_number": "(+91) 123 456 6789",
+    "address": "Pink street",
+    "types": "pink,blue",
+    "website": "http://google.com",
+    "language": "Indian"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "location": {
+        "lat": -38.383494,
+        "lng": 33.427362
+    },
+    "accuracy": 50,
+    "name": "Blue house",
+    "phone_number": "(+91) 123 456 6789",
+    "address": "Blue street",
+    "types": [
+        "pink",
+        "blue"
+    ],
+    "website": "http://google.com",
+    "language": "Indian"
+}
+HTTP/1.1 200 OK
+Date: Fri, 18 Mar 2022 19:47:18 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "9cac18717fae1acd033f40fe1f2649b3",
+    "scope": "APP",
+    "reference": "e153482f2bee2146c0ea87d56cc7913ee153482f2bee2146c0ea87d56cc7913e",
+    "id": "e153482f2bee2146c0ea87d56cc7913e"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=9cac18717fae1acd033f40fe1f2649b3
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=9cac18717fae1acd033f40fe1f2649b3
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Fri, 18 Mar 2022 19:47:20 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 230
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "-38.383494",
+        "longitude": "33.427362"
+    },
+    "accuracy": "50",
+    "name": "Blue house",
+    "phone_number": "(+91) 123 456 6789",
+    "address": "Blue street",
+    "types": "pink,blue",
+    "website": "http://google.com",
+    "language": "Indian"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/delete/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "place_id": "9cac18717fae1acd033f40fe1f2649b3"
+}
+HTTP/1.1 200 OK
+Date: Fri, 18 Mar 2022 19:47:24 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 15
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK"
+}
